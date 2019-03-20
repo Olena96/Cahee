@@ -1,0 +1,55 @@
+.main { 
+
+}
+
+
+.about {  
+		background: #00b2b2;
+		color: $white;
+		// display: flex;
+		// flex-direction: row;
+
+
+	&__item { 
+	
+
+		
+	}
+
+	&__image { 
+		width: 46%;
+		
+	}
+
+	&__desc {
+		width: 41%;
+
+	 
+	}
+
+	&__title { 
+		font: 700 90px/27px $raleway;
+		padding-bottom: 35px;
+
+
+	}
+
+	&__description1 {
+		font: 17px/27px $raleway;
+		padding-bottom: 25px;
+
+	}
+
+	&__description2 {
+	font: 17px/27px $raleway; 
+	
+
+	}
+
+}
+
+ .comcontainer--about { 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+  }
