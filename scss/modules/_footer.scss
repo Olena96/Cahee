@@ -1,0 +1,36 @@
+.footer { 
+	background: #262626;
+	height: 90px;
+	
+
+	&__copyright {
+	font:16px/1.6 $raleway; 
+	color: #aaaaaa;
+
+	}
+
+	&__logo { 
+		font: 25px $pacifico;
+		color: #b9b9b9;
+	}
+
+	&__creator { 
+		font:15px/1.5 $raleway;
+		color: #aaaaaa; 
+	}
+
+	&__love { 
+	color: #ff2b58; }
+
+}
+
+
+
+
+.comcontainer--footer { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	color: $white;
+}

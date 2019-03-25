@@ -1,5 +1,5 @@
 .contact { 
-	background: url('../images/section6.jpg') no-repeat top center;
+	background: url('../images/section6.jpg') no-repeat center bottom;
 	min-height: 100vh;
 	background-size: cover;
 	padding-top: 100px; 
@@ -79,10 +79,12 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 120px;
 }
 
 .contact__input--textarea  { 
 	height: 250px; 
+
 
     // &::placeholder { 
 		
