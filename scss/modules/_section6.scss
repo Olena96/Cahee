@@ -38,6 +38,8 @@
 		background: rgba(0,196,196,.5);
 		color: $white;
 		padding: 20px 0 20px 20px;
+		border-left: 5px solid transparent;
+		transition: border .3s;
 
 		&::placeholder { 
 			color: $white;
@@ -46,9 +48,9 @@
 
 
 		&:hover { 
-		border-left: 5px solid $green;
+		border-color: $green;
 		background: $blue;
-		// transition: all .2s; 
+
 
 	}
 }
